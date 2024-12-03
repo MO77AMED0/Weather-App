@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font aswome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container my-4">
+            <img src="image/logo@2x.png" class="w-10" alt="weather">
+          <div class="log ms-4">
+            <h1 class="navbar-brand ms-3 text-white">Weather</h1>
+          <small class="text-white">tagline goes here </small>
+          </div>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon nav-color"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto gap-5  mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">News</a>
+              </li>         
+              <li class="nav-item">
+                <a class="nav-link " href="#">Live cameras</a>
+              </li>         
+              <li class="nav-item">
+                <a class="nav-link " href="#">Photos</a>
+              </li>         
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>         
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header class="home ">
+        <div class="container padding">
+					<form class="find-location">
+						<input type="text" placeholder="Find your location..." id="search">
+						<input type="button" value="Find" id="submit">
+					</form>
+
+				</div>
+        <div class="container">
+      <div class="three-div mb-5 row">
+        <div class="one col-lg-4"style= padding-bottom: 20px;">
+          <div class="d-block w-100">
+            <div class="header d-flex justify-content-between">
+              <div class="day" id="weekday"></div>
+              <div class=" date" id="dateDay"></div>
+            </div>
+          </div>
+          <div class="forecast-content" id="current">
+            <div class="location ms-4" id="locationCity" ></div>
+            <div class="degree">
+                <div class="num ms-4" id="temperature"></div>
+              
+                <div class="forecast-icon">
+                    <img src="" alt="" width="90"  id="imagIcon">
+                </div>	
+            
+            </div>
+            <div class="custom ms-4" id="Text"></div>
+                         <span class="ms-4  me-3"  id="humidityToday"><img src="image/icon-umberella.png" class="ms-2" alt="umberella"></span>
+                         <img src="image/icon-wind.png" alt="wind">
+                        <span class=" me-3 accordion-flush" id="wind_kphTody"></span>
+                        <img src="image/icon-compass.png" alt="compass">
+                        <span class=" me-3" id="widDurectain"></span>
+            </div>
+        </div>
+        <div class="two col-lg-4" >
+          <div class="d-block w-100">
+            <div class="header">
+              <div class="day" id="tommorrowDay"></div>
+            </div>
+          </div>
+          <div class="forecast-content d-flex align-items-center justify-content-center mt-5" id="current">
+            <div class="degree">
+              
+                <img src="" alt="" width="90"  id="iconTommorrow">
+            	
+        
+                <div id="temperatureTommorrow" class="m-auto"></div>
+                <small class="m-auto" id="temperatureTommorrowTwo"></small>
+                <div class="custom" id="clearrTommorrow"></div>
+            </div>
+
+            
+          </div>
+        </div>
+        <div class="threee col-lg-4">
+          <div class="d-block w-100">
+            <div class="header">
+              <div class="day" id="afterTommorrowDay"></div>
+            </div>
+          </div>
+          <div class="forecast-content d-flex align-items-center justify-content-center mt-5" id="current">
+            <div class="degree">
+              
+                <img src="" id="iconAfterTommorrow" alt="" width="90" >
+            	
+        
+                <div  id="temperatureAfterTommorrow"></div>
+                <small  id="temperatureAfterTommorrowTwo"></small>
+                <div class="custom" id="clearrAfterTommorrow"></div>
+            </div>
+
+            
+          </div>
+        </div>
+    
+      </div>
+        </div>
+        
+        <footer class="site-footer py-lg-5 ">
+          <div class="container">
+            <div class="row gap-5">
+              <div class="col-md-8 position-relative">
+                <form action="#" class="subscribe-form">
+                  <input type="text" placeholder="Enter your email to subscribe..." class="input">
+                  <input type="submit" value="Subscribe" class="input2">
+                </form>
+              </div>
+              <div class="col-md-3"> 
+                <div class="fs-4 mt-1 gg">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus"></i>
+                <i class="fab fa-pinterest"></i>
+                </div>
+              </div>
+            </div>
+  
+            <p class="colophon mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+          </div>
+        </footer>
+      </header>
+
+  
+   
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+

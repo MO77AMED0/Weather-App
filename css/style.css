@@ -1,0 +1,200 @@
+ 
+.navbar img{
+    width: 5%;
+}
+.log{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.nav-color{
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link.active , .nav-link{
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.nav-link:focus, .nav-link:hover, .nav-link.active:hover {
+         color: #009ad8;
+         border: 2px solid #009ad8;
+
+
+         
+}
+
+.home{
+    background-image: url(../image/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+.find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    
+}
+
+
+.button,  form input[type="button"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+
+}
+
+
+form input, form textarea, form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+.padding{
+    padding-top:110px !important;
+    padding-bottom:120px !important;
+}
+
+
+.three-div{
+    background: #323544;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    /* width: 100%; */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+ .two{
+    border: 1px black solid ;
+ }
+
+.header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.location{
+    font-size: 1.2857142857em;
+    font-weight: 400;
+
+}
+.degree {
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.num {
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+sup {
+    top: -0.5em;
+}
+.forecast-icon{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+.custom span{
+    margin-right: 20px;
+
+}
+
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+.two{
+    background: #1e202b;
+}
+
+.site-footer{
+    background: #262936;
+   margin-top: 80px;
+   overflow: hidden;
+}
+.input{
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    
+
+}
+.input2{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.gg i{
+
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    background-color: #1e202b;;
+    color: #009ad8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg i:hover{
+    background-color:#009ad8 ;
+    color:white;
+}
+
